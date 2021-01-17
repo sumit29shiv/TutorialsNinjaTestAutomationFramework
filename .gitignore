@@ -4,6 +4,7 @@ test-output/
 build/
 Notes/
 *.png
+src/main/java/com/qa/nopcommerce/base/BasePage_copy.java
 
 ##################################
 ## Java
