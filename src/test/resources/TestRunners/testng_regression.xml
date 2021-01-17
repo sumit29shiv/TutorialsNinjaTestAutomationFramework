@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TN Test automation regression suite" parallel="tests" thread-count="3">
+
+    <listeners>
+		<listener class-name="com.qa.nopcommerece.testlisteners.ExtentReportListener" />
+	</listeners>
+
+	<test name="LoginPage Test">
+	
+		<classes>
+			<class name="com.qa.nopcommerce.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="AccountsPage Test">
+	
+		<classes>
+			<class name="com.qa.nopcommerce.tests.AccountsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ProductInfoPage Test">
+
+		<classes>
+			<class name="com.qa.nopcommerce.tests.ProductInfoTest" />
+		</classes>
+	</test>
+	
+	
+	
+	
+
+
+
+</suite>
