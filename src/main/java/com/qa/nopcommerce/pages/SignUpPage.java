@@ -9,7 +9,7 @@ public class SignUpPage {
 	public WebDriver driver;
 	public ElementUtil util;
 	
-	//By locators
+	//By locator
 	
 	
 
