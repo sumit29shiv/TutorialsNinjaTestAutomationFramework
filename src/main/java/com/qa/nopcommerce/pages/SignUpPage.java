@@ -1,5 +1,6 @@
 package com.qa.nopcommerce.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.nopcommerce.utils.ElementUtil;
@@ -10,6 +11,7 @@ public class SignUpPage {
 	public ElementUtil util;
 	
 	//By locator
+	By signUp = By.id("sumit");
 	
 	
 
