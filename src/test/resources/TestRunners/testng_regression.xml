@@ -6,6 +6,10 @@
     <listeners>
 		<listener class-name="com.qa.nopcommerece.testlisteners.ExtentReportListener" />
 	</listeners>
+	
+	 <listeners>
+		<listener class-name="com.qa.nopcommerece.testlisteners.AllureReportListener" />
+	</listeners>
 
 	<test name="LoginPage Test">
 	
